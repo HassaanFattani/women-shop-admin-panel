@@ -1,14 +1,10 @@
 import React from "react";
-import { Button } from "antd";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div>
-      <Button type="primary">Primary</Button>
-      <Button>Default</Button>
-      <Button type="dashed">Dashed</Button>
-      <Button type="danger">Danger</Button>
-      <Button type="link">Link</Button>
+      <Routes />
     </div>
   );
 }
